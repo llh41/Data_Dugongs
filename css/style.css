@@ -66,6 +66,11 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
 h3 {
 
     padding-top: 5px;
@@ -84,12 +89,58 @@ h6 {
     text-align: right;
 }
 
+.movie1 {
+    margin: 155px 0px 50px 0px;
+
+    background-image: url("../images/movie1.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 35%;
+
+}
+
+.movie2 {
+    background-image: url("../images/movie2.png");
+    margin: 155px 0px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 35%;
+}
+
+.movie3 {
+    background-image: url("../images/movie3.png");
+    margin: 155px 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 35%;
+}
+
+.movie4 {
+    background-image: url("../images/movie4.jpg");
+    margin: 155px 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 35%;
+}
 
 ul li {
 
     list-style: none;
     font-size: 10px;
     line-height: 26pt;
+}
+
+article {
+    margin: 0px 5em;
 }
 
 body {
