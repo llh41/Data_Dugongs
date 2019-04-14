@@ -87,12 +87,12 @@ h6 {
 }
 
 #one1, #two2, #three3, #four4 {
-    margin-top: 5%;
+     padding-top: 5%;
     color: white;
     font-size: 80px;
     letter-spacing: 25px;
-
     font-weight: 700;
+    background: rgb(0, 0, 0, 0.3);
 
 }
 
