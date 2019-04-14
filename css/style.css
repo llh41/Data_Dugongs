@@ -108,7 +108,7 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 35%;
-
+background-color: rgba(0,0,0,0.5);
 }
 
 .movie2 {
@@ -120,6 +120,7 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 35%;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .movie3 {
@@ -131,7 +132,7 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 35%;
-
+background-color: rgba(0,0,0,0.5);
 
 
 }
@@ -144,6 +145,7 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 35%;
+    background-color: rgba(0,0,0,0.5);
 }
 
 ul li {
