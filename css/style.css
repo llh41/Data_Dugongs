@@ -114,7 +114,7 @@ h6 {
 
 .movie2 {
     background-image: url("../images/movie2.png");
-    margin: 155px 0px;
+    margin: 155px 0px 50px 0px;
 
     background-attachment: fixed;
     background-position: center;
@@ -127,7 +127,7 @@ h6 {
 .movie3 {
 
     background-image: url("../images/movie3.png");
-    margin: 155px 0px;
+   margin: 155px 0px 50px 0px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@ h6 {
 
 .movie4 {
     background-image: url("../images/movie4.jpg");
-    margin: 155px 0px;
+    margin: 155px 0px 50px 0px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
