@@ -1,4 +1,4 @@
-a:link {
+div > a:link {
 
     text-decoration: none;
     color: #546A7B;
@@ -11,24 +11,24 @@ a:link {
     text-transform: uppercase;
 }
 
-a:visited {
+div > a:visited {
 
     text-decoration: none;
     color: #546A7B;
 
 }
 
-a:hover {
+div > a:hover {
 
     text-decoration: none;
 }
 
-a:active {
+div > a:active {
     color: #FFA15E;
     text-decoration: none;
 }
 
-a:after {
+div > a:after {
     content: '';
     display: block;
     position: absolute;
@@ -39,7 +39,7 @@ a:after {
     background: transparent;
 }
 
-.line::after {
+div > .line::after {
 
     left: 0;
     bottom: 0;
@@ -51,7 +51,7 @@ a:after {
 
 }
 
-.line:hover::after {
+div > .line:hover::after {
     transform: scaleX(1);
 
 }
