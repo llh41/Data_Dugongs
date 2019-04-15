@@ -74,6 +74,11 @@
 <p> The lists together contain 2,511 books, however, when repeating offenders appeared, and we narrowed it down to well-known titles, we are drawing from 231 movie/book combinations to make our datasets. </p>
 <br/>
 <p> Our datasets will be important, as it will not only answer the age-old question, but also it will see if the older medium of books holds up against the newer medium of films. Since the creation of mediums that incorporate sight and sound together (films, television), other printed and spoken mediums have lost their uniqueness. As technology evolves, so do our expectations and opinions on what mediums are the most fascinating. Radio triumphs over print, television triumphs over radio…do film adaptations triumph over books? </p>
+<p>Our data was gathered by a program we wrote using C# that pulls data from the IMDB API based on the tag “based on novel or book”. This API outputted a JSON file which was then serialized into an array of C# objects. Each object was filtered through a function to only extract the information that we needed for this project. We decided this information would be the film’s title, year, genre, user rating, and a plot summary. At first, the API outputted tens of thousands of lines of data, returning any film that was based on a novel regardless of whether it was an indie film or an international film. Unfortunately, the computer would freeze up anytime this data was being processed. Luckily the API had a “popularity” value, which we increased in order for to filter out less popular movies. After this, we were left with over 230 of the most popular films based on books. We then wrote a function that outputted this data into a CSV file which would then be plugged into our graphing software. Initially we planned to search the Goodreads API using our existing list of film titles, and search for the books of the same title to complete our dataset, but we ran into two problems:<p>
+<ol>
+    <li>Not all films based on a book share the same name as said book</li>
+    <li>There is some overlap with titles, whether there are multiple books of the same title, or a graphic novel or children’s book based on the film or book that share the same titles. </li>
+    </ol>
             </div>
         </div>
         </article>
